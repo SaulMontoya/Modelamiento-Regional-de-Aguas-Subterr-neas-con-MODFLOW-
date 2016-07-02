@@ -1,0 +1,9 @@
+Factor_K_Celendin 1.3
+Factor_K_Jumasha 1.3
+K_Areniscas_Goylla 5E-8
+K_Cal_Mar_Celendin 5E-7
+K_Cal_Mar_Chulec 4E-7
+K_Cal_Mar_Pariatambo 6E-7
+K_Calizas_Jumasha 1E-6
+K_Intrusivos_Feldespato 1E-8
+K_Intrusivos_Monzonita 2E-8

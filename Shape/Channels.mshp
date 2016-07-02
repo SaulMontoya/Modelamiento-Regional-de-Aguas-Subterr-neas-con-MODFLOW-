@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <HISTORY>
+    <MODULE>Channel Network and Drainage Basins</MODULE>
+    <OPTION type="integer" id="THRESHOLD" name="Threshold">5</OPTION>
+    <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid system">
+      <CELLSIZE>30.60448460044395</CELLSIZE>
+      <XMIN>280428.9897423002</XMIN>
+      <XMAX>335578.27099230024</XMAX>
+      <YMIN>8893893.69438326</YMIN>
+      <YMAX>8949471.438417666</YMAX>
+      <DATA type="grid" id="DEM" name="Elevation">
+        <MODULE>Fill Sinks (Wang &amp; Liu)</MODULE>
+        <OPTION type="double" id="MINSLOPE" name="Minimum Slope [Degree]">0.100000</OPTION>
+        <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid system">
+          <CELLSIZE>30.60448460044395</CELLSIZE>
+          <XMIN>280428.9897423002</XMIN>
+          <XMAX>335578.27099230024</XMAX>
+          <YMIN>8893893.69438326</YMIN>
+          <YMAX>8949471.438417666</YMAX>
+          <DATA type="grid" id="ELEV" name="DEM">
+            <MODULE>GDAL: Import Raster</MODULE>
+            <OPTION type="file" id="FILES" name="Files">C:\WRDAPP\0_Infohataris\WetlandsOnAndeanBasins\Rasters\ASTGTM2_S10W077_dem_UTM18S_Cut.tif</OPTION>
+            <OPTION type="boolean" id="SELECT" name="Select from Multiple Bands">TRUE</OPTION>
+            <OPTION type="boolean" id="TRANSFORM" name="Transformation">TRUE</OPTION>
+            <OPTION type="choice" id="INTERPOL" name="Interpolation">4</OPTION>NOT SET</DATA>
+        </OPTION>
+        <DATA type="grid" id="ELEV" name="DEM">
+          <MODULE>GDAL: Import Raster</MODULE>
+          <OPTION type="file" id="FILES" name="Files">C:\WRDAPP\0_Infohataris\WetlandsOnAndeanBasins\Rasters\ASTGTM2_S10W077_dem_UTM18S_Cut.tif</OPTION>
+          <OPTION type="boolean" id="SELECT" name="Select from Multiple Bands">TRUE</OPTION>
+          <OPTION type="boolean" id="TRANSFORM" name="Transformation">TRUE</OPTION>
+          <OPTION type="choice" id="INTERPOL" name="Interpolation">4</OPTION>NOT SET</DATA>NOT SET</DATA>
+    </OPTION>
+    <DATA type="grid" id="DEM" name="Elevation">
+      <MODULE>Fill Sinks (Wang &amp; Liu)</MODULE>
+      <OPTION type="double" id="MINSLOPE" name="Minimum Slope [Degree]">0.100000</OPTION>
+      <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid system">
+        <CELLSIZE>30.60448460044395</CELLSIZE>
+        <XMIN>280428.9897423002</XMIN>
+        <XMAX>335578.27099230024</XMAX>
+        <YMIN>8893893.69438326</YMIN>
+        <YMAX>8949471.438417666</YMAX>
+        <DATA type="grid" id="ELEV" name="DEM">
+          <MODULE>GDAL: Import Raster</MODULE>
+          <OPTION type="file" id="FILES" name="Files">C:\WRDAPP\0_Infohataris\WetlandsOnAndeanBasins\Rasters\ASTGTM2_S10W077_dem_UTM18S_Cut.tif</OPTION>
+          <OPTION type="boolean" id="SELECT" name="Select from Multiple Bands">TRUE</OPTION>
+          <OPTION type="boolean" id="TRANSFORM" name="Transformation">TRUE</OPTION>
+          <OPTION type="choice" id="INTERPOL" name="Interpolation">4</OPTION>NOT SET</DATA>
+      </OPTION>
+      <DATA type="grid" id="ELEV" name="DEM">
+        <MODULE>GDAL: Import Raster</MODULE>
+        <OPTION type="file" id="FILES" name="Files">C:\WRDAPP\0_Infohataris\WetlandsOnAndeanBasins\Rasters\ASTGTM2_S10W077_dem_UTM18S_Cut.tif</OPTION>
+        <OPTION type="boolean" id="SELECT" name="Select from Multiple Bands">TRUE</OPTION>
+        <OPTION type="boolean" id="TRANSFORM" name="Transformation">TRUE</OPTION>
+        <OPTION type="choice" id="INTERPOL" name="Interpolation">4</OPTION>NOT SET</DATA>NOT SET</DATA>
+  </HISTORY>
+  <SOURCE>
+    <FILE>C:\WRDAPP\0_Infohataris\WetlandsOnAndeanBasins\Shape\Channels.shp</FILE>
+    <DATABASE></DATABASE>
+    <PROJECTION>
+      <OGC_WKT>PROJCS["WGS 84 / UTM zone 18S",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.01745329251994328,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-75],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",10000000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AUTHORITY["EPSG","32718"]]</OGC_WKT>
+      <PROJ4>+proj=utm +zone=18 +south +ellps=WGS84 +datum=WGS84 +units=m +no_defs </PROJ4>
+      <EPSG>32718</EPSG>
+    </PROJECTION>
+  </SOURCE>
+  <DESCRIPTION></DESCRIPTION>
+</SAGA_METADATA>
